@@ -3,21 +3,22 @@
   <id>de.bforartists.Bforartists</id>
   
   <name>Bforartists</name>
-  <summary>Bforartists is a complete, free and opensource 3D suite to create CG content.</summary>
+  <summary>Bforartists is a complete, free and opensource 3D suite to create CG content</summary>
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
   
   <description>
     <p>
-      This is an unofficial Flatpak build of Bforartists.
-
       Bforartists is a fork of the popular open source 3D software Blender. Developed by some 3D enthusiasts to make Blender's UI even better.
+    </p>
+    <p>
+      This Flatpak build of Bforartists, while endorsed by upstream, is not officially maintained by the Bforartists project.
     </p>
   </description>
   <url type="homepage">https://www.bforartists.de/</url>
   <url type="help">https://www.bforartists.de/get-involved//</url>
-  <url type="bugtracker">https://github.com/Bforartists/Bforartists/issues</url>
+  <url type="bugtracker">https://github.com/flathub/de.bforartists.Bforartists/issues</url>
   <launchable type="desktop-id">de.bforartists.Bforartists.desktop</launchable>
   <screenshots>
     <screenshot type="default">
