@@ -28,7 +28,7 @@ finish-args:
 # to remove non-free codecs, we make this an 
 # extension that can be removed
 add-extensions:
-  de.bforartists.bforartists.Codecs:
+  de.bforartists.Bforartists.Codecs:
     directory: lib/codecs
     add-ld-path: lib
     bundle: true
