@@ -36,6 +36,16 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="3.6.1" date="2023-07-05">
+      <description>
+        <p>Enhancements:</p>
+          <ul>
+            <li>Bforartists 3 Version 3.6.1 is maintenance and bugfix release. This one comes with the changes from Blender 3.6.1 with the usual updating and changes to keep Bforartists consistent and compatible with the latest from Blender.
+
+            This version comes with 30 tasks and additional bug fixes from us with the updates and features from Blender 3.6.1 and 4.0.0 development.</li>
+          </ul>
+      </description>
+    </release>
     <release version="3.6.0" date="2023-06-04">
       <description>
         <p>Enhancements:</p>
