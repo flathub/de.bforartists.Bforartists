@@ -33,8 +33,14 @@ add-extensions:
     add-ld-path: lib
     bundle: true
     autodelete: true
+  org.freedesktop.Platform.ffmpeg-full:
+    directory: lib/ffmpeg
+    version: '23.08'
+    add-ld-path: '.'
+cleanup-commands:
+  - mkdir -p /app/lib/ffmpeg
 modules:
-  - shared-modules/libdecor/libdecor-0.1.1.json
+  - shared-modules/libdecor/libdecor-0.2.0.json
 
   # Build codecs, including non-free ones
   - name: x264
@@ -114,8 +120,8 @@ modules:
       - --enable-decoder=theora
     sources:
       - type: archive
-        url: https://www.ffmpeg.org/releases/ffmpeg-6.0.tar.xz
-        sha256: 57be87c22d9b49c112b6d24bc67d42508660e6b718b3db89c44e47e289137082
+        url: https://www.ffmpeg.org/releases/ffmpeg-6.1.tar.xz
+        sha256: 488c76e57dd9b3bee901f71d5c95eaf1db4a5a31fe46a28654e837144207c270
     cleanup:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
