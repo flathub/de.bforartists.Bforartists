@@ -22,7 +22,7 @@
   <launchable type="desktop-id">de.bforartists.Bforartists.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://www.bforartists.de/wp-content/uploads/2020/04/renderingbfa2.jpg</image>
+      <image>https://www.bforartists.de/wp-content/uploads/2023/11/Bforartists-Splashscreen-4.0.1-Large.jpg</image>
     </screenshot>
     <screenshot>
       <image>https://www.bforartists.de/wp-content/uploads/2020/04/modelingbfa2-1024x619.jpg</image>
@@ -36,6 +36,15 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="4.0.1" date="2023-11-19"/>
+      <description>
+        <p>Enhancements:</p>
+          <ul>
+            <li>This version comes with a new Presentation addon, a Shader Node kit for the Asset Browser and procedural materials, and general maintenance with all the latest features, stability, and updates from Blender with all our additional love from us.
+
+            This version has an additional 150 tasks and bug fixes with everything from Blender 4.0.0, 4.0.1 and 4.1.0 development.</li>
+          </ul>
+      </description>
     <release version="3.6.2" date="2023-08-28"/>
       <description>
         <p>Enhancements:</p>
