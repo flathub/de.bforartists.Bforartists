@@ -1,3 +1,4 @@
+![Bforartists splash](splash.jpg)
 This is the repo for the Flatpak version of [Bforartists](https://www.bforartists.de/), based on https://github.com/flathub/org.blender.Blender
 
 The Bforartists Flatpak, while endorsed by upstream, it maintained unofficially. As such, all bug reports related to the Flatpak should be made here to determine if a bug is related to Bforartists or the Flatpak itself.
