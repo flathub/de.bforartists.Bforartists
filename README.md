@@ -1,4 +1,6 @@
 ![Bforartists splash](splash.jpg)
+_Image made by Khamurai, winner of the Bforartists 4.0.1 Splash Contest, check out his [Twitter](https://x.com/Khamurai3D) and [YouTube](https://youtube.com/@Khamurai)_
+
 This is the repo for the Flatpak version of [Bforartists](https://www.bforartists.de/), based on https://github.com/flathub/org.blender.Blender
 
 The Bforartists Flatpak, while endorsed by upstream, it maintained unofficially. As such, all bug reports related to the Flatpak should be made here to determine if a bug is related to Bforartists or the Flatpak itself.
