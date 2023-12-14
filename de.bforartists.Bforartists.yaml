@@ -36,7 +36,7 @@ add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
     version: '23.08'
-    add-ld-path: '.'
+    add-ld-path: .
 cleanup-commands:
   - mkdir -p /app/lib/ffmpeg
 modules:
@@ -126,6 +126,18 @@ modules:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
       - /lib/codecs/share
+  
+  # Libcrypt for BlenderKit support
+  # https://github.com/flathub/org.blender.Blender/issues/166
+  - name: libxcrypt
+    config-opts:
+      - --prefix=/app
+      - --enable-shared
+      - --enable-obsolute-api=glibc
+    sources:
+      - type: archive
+        url: https://github.com/besser82/libxcrypt/releases/download/v4.4.36/libxcrypt-4.4.36.tar.xz
+        sha256: e5e1f4caee0a01de2aee26e3138807d6d3ca2b8e67287966d1fefd65e1fd8943
 
   # Bforartists itself
   - name: bforartists
@@ -155,8 +167,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.0.1/Bforartists-4.0.1-Linux.tar.xz
-        sha256: b267c0265953f661bcc596403cd7fa0f2952dd7a3c541f78e41386768e29c655
+        url: https://github.com/Bforartists/Bforartists/releases/download/v4.0.2/Bforartists-4.0.2-Linux.tar.xz
+        sha256: 85910b14405d69890f34262e92c88ead4641e60466e6761a3edc725548a3786b
         strip-components: 0
 
         # This is to verify that the URL indeed 
