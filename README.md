@@ -10,7 +10,7 @@ The Bforartists Flatpak, while endorsed by upstream, it maintained unofficially.
 2. Install the SDK `flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08`
 3. Clone the repo (with `--recurse-submodules` for the shared Flatpak modules)
 4. Create a new folder called `build-dir`
-5. To build for testing, execute `flatpak-builder --user --install --force-clean build-dir de.bforartists.Bforartists.json`. This will build and install Bforartists.
+5. To build for testing, execute `flatpak-builder --user --install --force-clean build-dir de.bforartists.Bforartists.yaml`. This will build and install Bforartists.
 
 Note that FFMPEG will be downloaded and compiled too.
 
