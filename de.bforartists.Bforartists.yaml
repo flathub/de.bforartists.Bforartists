@@ -153,7 +153,7 @@ modules:
       - mv bforartists /app/bforartists
       - install -Dm644 /app/bforartists/bforartists.desktop /app/share/applications/$FLATPAK_ID.desktop
       - desktop-file-edit --set-icon=${FLATPAK_ID} /app/share/applications/${FLATPAK_ID}.desktop
-      - install -Dm644 /app/bforartists/bforartists.svg /app/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg
+      - install -Dm644 $FLATPAK_ID.svg /app/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg
       - install -Dm644 /app/bforartists/bforartists-symbolic.svg /app/share/icons/hicolor/symbolic/apps/$FLATPAK_ID-symbolic.svg
       - cd /app/bforartists/*.*/datafiles && mv locale /app/share/locale && ln -sf
         /app/share/locale locale
@@ -189,6 +189,8 @@ modules:
       # Metadata and script that executes Bforartists
       - type: file
         path: de.bforartists.Bforartists.metainfo.xml
+      - type: file
+        path: branding/de.bforartists.Bforartists.svg
       - type: script
         commands:
           - cd /app/bforartists
