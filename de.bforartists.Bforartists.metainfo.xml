@@ -7,6 +7,17 @@
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
+
+
+  <developer id="tld.vendor">
+    <name>Mahid Sheikh</name>
+  </developer>
+
+
+  <branding>
+    <color type="primary" scheme_preference="light">#9ed2ff</color>
+    <color type="primary" scheme_preference="dark">#2a577e</color>
+  </branding>
   
   <description>
     <p>
@@ -34,7 +45,7 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="4.0.2" date="2023-12-12"/>
-    <release version="4.0.1" date="2023-11-19"/>
+    <release version="4.0.1" date="2023-11-19">
       <description>
         <p>Enhancements:</p>
           <ul>
@@ -43,7 +54,8 @@
             This version has an additional 150 tasks and bug fixes with everything from Blender 4.0.0, 4.0.1 and 4.1.0 development.</li>
           </ul>
       </description>
-    <release version="3.6.2" date="2023-08-28"/>
+    </release>
+    <release version="3.6.2" date="2023-08-28">
       <description>
         <p>Enhancements:</p>
           <ul>
@@ -52,6 +64,7 @@
             This version has and additional 21 tasks and bug fixes from us everything from Blender 3.6.2 and 4.0.0 development.</li>
           </ul>
       </description>
+    </release>
     <release version="3.6.1" date="2023-07-05">
       <description>
         <p>Enhancements:</p>
