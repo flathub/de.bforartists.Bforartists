@@ -126,7 +126,7 @@ modules:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
       - /lib/codecs/share
-  
+
   # Libcrypt for BlenderKit support
   # https://github.com/flathub/org.blender.Blender/issues/166
   - name: libxcrypt
@@ -167,8 +167,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.0.2/Bforartists-4.0.2-Linux.tar.xz
-        sha256: 85910b14405d69890f34262e92c88ead4641e60466e6761a3edc725548a3786b
+        url: https://github.com/Bforartists/Bforartists/releases/download/v4.1.0/Bforartists-4.1.0-Linux.tar.xz
+        sha256: 9ced6cd8fddd5ef5ba1884067484e3060fe062b1f036e51725e15c14097ccad5
         strip-components: 0
 
         # This is to verify that the URL indeed 
