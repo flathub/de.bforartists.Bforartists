@@ -53,7 +53,7 @@ modules:
     sources:
       - type: git
         url: https://code.videolan.org/videolan/x264.git
-        commit: baee400fa9ced6f5481a728138fed6e867b0ff7f
+        commit: 31e19f92f00c7003fa115047ce50978bc98c3a0d
     cleanup:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
