@@ -1,5 +1,5 @@
-![Bforartists splash](splash.jpg)
-_Image made by Khamurai, winner of the Bforartists 4.0.1 Splash Contest, check out his [Twitter](https://x.com/Khamurai3D) and [YouTube](https://youtube.com/@Khamurai)_
+![Bforartists splash](splash.png)
+_Image made by Belzunze, winner of the Bforartists 4.1 Splash Contest, check out his [Artstation](https://www.artstation.com/belzunze)_
 
 This is the repo for the Flatpak version of [Bforartists](https://www.bforartists.de/), based on https://github.com/flathub/org.blender.Blender
 
@@ -12,10 +12,10 @@ The Bforartists Flatpak, while endorsed by upstream, it maintained unofficially.
 4. Create a new folder called `build-dir`
 5. To build for testing, execute `flatpak-builder --user --install --force-clean build-dir de.bforartists.Bforartists.yaml`. This will build and install Bforartists.
 
-Note that FFMPEG will be downloaded and compiled too.
+Note that this will compile x264 from source
 
 # Upgrading to the Newest Version
-Open `org.bforartists.Bforartists.json` and scroll down to this section:
+Open `org.bforartists.Bforartists.yaml` and scroll down to this section:
 ```yaml
 sources:
   - type: archive

@@ -21,6 +21,7 @@ finish-args:
   - --env=SPNAV_SOCKET=/run/spnav.sock
   - --env=TMP_DIR=/tmp
   - --env=TMP=/tmp
+  - --env=LD_LIBRARY_PATH=/app/lib
 
 # We bundle non-free codecs with Bforartists,
 # which are build when the Flatpak is
@@ -53,7 +54,7 @@ modules:
     sources:
       - type: git
         url: https://code.videolan.org/videolan/x264.git
-        commit: baee400fa9ced6f5481a728138fed6e867b0ff7f
+        commit: 31e19f92f00c7003fa115047ce50978bc98c3a0d
     cleanup:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
@@ -120,13 +121,13 @@ modules:
       - --enable-decoder=theora
     sources:
       - type: archive
-        url: https://www.ffmpeg.org/releases/ffmpeg-6.1.tar.xz
-        sha256: 488c76e57dd9b3bee901f71d5c95eaf1db4a5a31fe46a28654e837144207c270
+        url: https://www.ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz
+        sha256: 8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968
     cleanup:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
       - /lib/codecs/share
-  
+
   # Libcrypt for BlenderKit support
   # https://github.com/flathub/org.blender.Blender/issues/166
   - name: libxcrypt
@@ -167,8 +168,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.0.2/Bforartists-4.0.2-Linux.tar.xz
-        sha256: 85910b14405d69890f34262e92c88ead4641e60466e6761a3edc725548a3786b
+        url: https://github.com/Bforartists/Bforartists/releases/download/v4.1.0/Bforartists-4.1.0-Linux.tar.xz
+        sha256: 9ced6cd8fddd5ef5ba1884067484e3060fe062b1f036e51725e15c14097ccad5
         strip-components: 0
 
         # This is to verify that the URL indeed 
