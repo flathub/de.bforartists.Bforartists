@@ -44,13 +44,14 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="4.1.0" date="2024-04-01"/>
+    <release version="4.1.0" date="2024-04-01">
       <description>
         <p>Enhancements:</p>
           <ul>
             <li>This release has a new feature called the 3D Sequencer, where you can use scene strips as shots in a "pinned" video sequencer timeline to change the 3D View scene contents, camera, and animation dynamically - also with a new Power User Tools addon and another 123 task and features added to everything from the latest from Blender 4.1.0 and 4.2.0 Alpha to the date.</li>
           </ul>
       </description>
+    </release>
     <release version="4.0.2" date="2023-12-12"/>
     <release version="4.0.1" date="2023-11-19">
       <description>
