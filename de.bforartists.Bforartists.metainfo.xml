@@ -3,7 +3,7 @@
   <id>de.bforartists.Bforartists</id>
   
   <name>Bforartists</name>
-  <summary>A complete, free and opensource 3D suite</summary>
+  <summary>Blender but with UX for artists</summary>
   
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
@@ -21,7 +21,9 @@
   
   <description>
     <p>
-     Bforartists is a complete, free and opensource 3D suite to create CG content. It offers you the full 3D art pipeline to create game graphics, pre-rendered movies and stills. From modeling, sculpting, texturing, rigging, animation, rendering, up to post processing. 
+      Bforartists is a complete, free and opensource 3D suite to create CG content. It offers you the full 3D art pipeline to create game graphics, pre-rendered movies and stills. From modeling, sculpting, texturing, rigging, animation, rendering, up to post processing. 
+
+      Bforartists gives the full power of Blender but with a nicer UI and user experience. Keyboard-only features are now available through the UI, nodes are given proper descriptions, icons are colored to make things easier to find. Everything is tailored for the user experience.
     </p>
   </description>
   <url type="homepage">https://www.bforartists.de/</url>
@@ -33,13 +35,7 @@
       <image>https://www.bforartists.de/wp-content/uploads/2024/04/Belzunze_Splashscreen_Competition_Bforartists_4.1.0.jpg</image>
     </screenshot>
     <screenshot>
-      <image>https://www.bforartists.de/wp-content/uploads/2020/04/modelingbfa2-1024x619.jpg</image>
-    </screenshot>
-    <screenshot>
-      <image>https://www.bforartists.de/wp-content/uploads/2020/04/sculptingbfa2.jpg</image>
-    </screenshot>
-    <screenshot>
-      <image>https://www.bforartists.de/wp-content/uploads/2020/04/animationbfa2.jpg</image>
+      <image>https://www.bforartists.de/wp-content/uploads/2024/04/Belzunze_Splashscreen_Competition_Bforartists_4.1.0.jpg</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
