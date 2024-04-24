@@ -3,8 +3,6 @@ _Image made by Belzunze, winner of the Bforartists 4.1 Splash Contest, check out
 
 This is the repo for the Flatpak version of [Bforartists](https://www.bforartists.de/), based on https://github.com/flathub/org.blender.Blender
 
-The Bforartists Flatpak, while endorsed by upstream, it maintained unofficially. As such, all bug reports related to the Flatpak should be made here to determine if a bug is related to Bforartists or the Flatpak itself.
-
 # Building Instructions
 1. Install `flatpak` and `flatpak-builder` from your distro's repo
 2. Install the SDK `flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08`
