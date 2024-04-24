@@ -10,7 +10,7 @@
 
 
   <developer id="tld.vendor">
-    <name>Mahid Sheikh</name>
+    <name>Bforartists</name>
   </developer>
 
 
@@ -27,8 +27,8 @@
     </p>
   </description>
   <url type="homepage">https://www.bforartists.de/</url>
-  <url type="help">https://www.bforartists.de/get-involved//</url>
-  <url type="bugtracker">https://github.com/flathub/de.bforartists.Bforartists/issues</url>
+  <url type="help">https://www.bforartists.de/get-involved/</url>
+  <url type="bugtracker">https://github.com/Bforartists/Bforartists/issues/</url>
   <launchable type="desktop-id">de.bforartists.Bforartists.desktop</launchable>
   <screenshots>
     <screenshot type="default">
