@@ -10,7 +10,7 @@
 
 
   <developer id="tld.vendor">
-    <name>Mahid Sheikh</name>
+    <name>Bforartists</name>
   </developer>
 
 
@@ -27,19 +27,28 @@
     </p>
   </description>
   <url type="homepage">https://www.bforartists.de/</url>
-  <url type="help">https://www.bforartists.de/get-involved//</url>
-  <url type="bugtracker">https://github.com/flathub/de.bforartists.Bforartists/issues</url>
+  <url type="help">https://www.bforartists.de/get-involved/</url>
+  <url type="bugtracker">https://github.com/Bforartists/Bforartists/issues/</url>
   <launchable type="desktop-id">de.bforartists.Bforartists.desktop</launchable>
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/cfe22a87c58322a526d642d2599c1a9cde2fbff3/screenshots/app-window.png</image>
+      <caption>Bforartists window</caption>
     </screenshot>
     <screenshot>
       <image>https://www.bforartists.de/wp-content/uploads/2024/04/Belzunze_Splashscreen_Competition_Bforartists_4.1.0.jpg</image>
+      <caption>Bforartists splash by Belzunze</caption> 
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="4.1.1" date="2024-04-23">
+      <description>
+        <ul>
+            <li>This release has a new feature to assign Collection Exporters for batch exports and another 24 task and features added to everything from the latest from Blender 4.1.1 and 4.2.0 Alpha to the date.</li>
+      </ul>
+      </description>
+    </release>
     <release version="4.1.0" date="2024-04-01">
       <description>
         <p>Enhancements:</p>
