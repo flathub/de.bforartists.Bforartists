@@ -40,7 +40,11 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="4.1.1" date="2024-04-23"/>
+    <release version="4.1.1" date="2024-04-23">
+      <description>
+        <li>This release has a new feature to assign Collection Exporters for batch exports and another 24 task and features added to everything from the latest from Blender 4.1.1 and 4.2.0 Alpha to the date.</li>
+      </description>
+    </release>
     <release version="4.1.0" date="2024-04-01">
       <description>
         <p>Enhancements:</p>
