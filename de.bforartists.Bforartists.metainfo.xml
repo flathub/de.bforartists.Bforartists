@@ -43,13 +43,17 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="4.2.0" date="2024-07-30">
-      <description></description>
+      <description>
+        <ul>
+            <li>This release has a new fresh set of features including Brush Assets, Grease Pencil 3.0 with Geometry Nodes compatibility, EEVEE 2.0, Multi-pass AOV's in the Viewport Compositor, and offline and online extensions love! With another 151 task and features added to everything from the latest from Blender 4.2.0 and 4.3.0 Alpha (main branch) to the date.</li>
+        </ul>
+      </description>
     </release>
     <release version="4.1.1" date="2024-04-23">
       <description>
         <ul>
             <li>This release has a new feature to assign Collection Exporters for batch exports and another 24 task and features added to everything from the latest from Blender 4.1.1 and 4.2.0 Alpha to the date.</li>
-      </ul>
+        </ul>
       </description>
     </release>
     <release version="4.1.0" date="2024-04-01">
