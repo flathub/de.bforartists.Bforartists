@@ -36,12 +36,20 @@
       <caption>Bforartists window</caption>
     </screenshot>
     <screenshot>
-      <image>https://www.bforartists.de/wp-content/uploads/2024/04/Belzunze_Splashscreen_Competition_Bforartists_4.1.0.jpg</image>
-      <caption>Bforartists splash by Belzunze</caption> 
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/splash.png</image>
+      <caption>Bforartists splash by Eraser45-Studios</caption> 
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="4.2.2" date="2024-09-02">
+      <description>
+      <ul>
+          <li>This release has a new fresh set of features including Asset Shelves for the 3D View and Node Editors, new Power User tools subdivision parity opt-in, Grease Pencil 3.0 interface love, extensions UX love! With another 33 task and features added to everything from the latest from Blender 4.2.1 and 4.3.0 Alpha (main branch) to the date.</li>  
+          <li>This build also comes with some showstopper that needed to be dealt with to give you the best of the best! So version 4.2.1 has been skipped.</li>
+      </ul>
+      </description>
+    </release>
     <release version="4.2.0" date="2024-07-30">
       <description>
         <ul>
