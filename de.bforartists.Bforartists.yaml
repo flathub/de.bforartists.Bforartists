@@ -168,8 +168,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.2.2/Bforartists-4.2.2-Linux.tar.xz
-        sha256: 570ba3338bb4a40c49aebbdbaa0799cc59d367eb864fbe2814b9b6e1a51cd073
+        url: https://github.com/Bforartists/Bforartists/releases/download/v4.3.1/Bforartists-4.3.1-Linux.tar.xz
+        sha256: adef074132f01d217ae9d6c73afabc7d243bfeac50ab854929e3dd737263865b
         strip-components: 0
 
         # This is to verify that the URL indeed 
