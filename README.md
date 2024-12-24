@@ -1,5 +1,5 @@
 ![Bforartists splash](splash.png)
-_Image made by Eraser45-Studios, winner of the Bforartists 4.2 Splash Contest, check out their [Twitter](https://x.com/E45_Studios)_
+_Image made by Ethan Avila, winner of the Bforartists 4.2 Splash Contest, check out their [Twitter](https://x.com/EthanAvila_JPEG)_
 
 This is the repo for the Flatpak version of [Bforartists](https://www.bforartists.de/), based on https://github.com/flathub/org.blender.Blender
 
