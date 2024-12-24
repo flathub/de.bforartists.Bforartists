@@ -47,6 +47,7 @@
       <ul>
           <li>This is a hotfix release with 9 bug fixes including a critical showstopper. Highly recommend updating to this version!</li>
           <li>This is part of an exciting release with all the latest from Blender 4.3 and 4.4 to the date - with a chunk of 130 pieces of love from us this cycle.</li>
+      </ul>
       </description>
     </release>
     <release version="4.2.2" date="2024-09-02">
