@@ -37,13 +37,17 @@
     </screenshot>
     <screenshot>
       <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/splash.png</image>
-      <caption>Bforartists splash by Eraser45-Studios</caption> 
+      <caption>Bforartists splash by Ethan Avila</caption> 
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="4.3.1" date="2024-12-12">
-      <description></description>
+      <description>
+      <ul>
+          <li>This is a hotfix release with 9 bug fixes including a critical showstopper. Highly recommend updating to this version!</li>
+          <li>This is part of an exciting release with all the latest from Blender 4.3 and 4.4 to the date - with a chunk of 130 pieces of love from us this cycle.</li>
+      </description>
     </release>
     <release version="4.2.2" date="2024-09-02">
       <description>
