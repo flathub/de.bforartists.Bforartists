@@ -121,8 +121,8 @@ modules:
       - --enable-decoder=theora
     sources:
       - type: archive
-        url: https://www.ffmpeg.org/releases/ffmpeg-6.1.1.tar.xz
-        sha256: 8684f4b00f94b85461884c3719382f1261f0d9eb3d59640a1f4ac0873616f968
+        url: https://www.ffmpeg.org/releases/ffmpeg-6.1.2.tar.xz
+        sha256: 3b624649725ecdc565c903ca6643d41f33bd49239922e45c9b1442c63dca4e38
     cleanup:
       - /lib/codecs/include
       - /lib/codecs/lib/pkgconfig
@@ -168,8 +168,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.3.1/Bforartists-4.3.1-Linux.tar.xz
-        sha256: adef074132f01d217ae9d6c73afabc7d243bfeac50ab854929e3dd737263865b
+        url: https://github.com/Bforartists/Bforartists/releases/download/v4.3.2/Bforartists-4.3.2-Linux.tar.xz
+        sha256: fd1fb9174cc4cc24af32d6def599abe67d27f7feefd7241d98a2d085bab06643
         strip-components: 0
 
         # This is to verify that the URL indeed 
