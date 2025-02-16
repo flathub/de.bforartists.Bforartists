@@ -42,8 +42,16 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="4.3.3" date="2025-02-15">
+      <description>
+      <ul>
+          <li>This is a hotfix and commulative stability release with 7 show-stopper bug fixes, including the missing Last Operator panel, HIP support, and theme saving.</li>
+          <li>This is part of an exciting release with all the latest from Blender 4.3 and 4.4 to the date - with a chunk of 176 pieces of love from us this cycle.</li>
+      </ul>
+      </description>
+    </release>
     <release version="4.3.2" date="2025-01-24">
-      <description></description>
+      <description/>
     </release>
     <release version="4.3.1" date="2024-12-12">
       <description>
