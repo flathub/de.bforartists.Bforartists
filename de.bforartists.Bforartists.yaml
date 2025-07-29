@@ -18,6 +18,7 @@ finish-args:
   - --filesystem=home
   - --filesystem=/tmp
   - --filesystem=/run/spnav.sock:ro
+  - --env=AMD_DEBUG=useaco
   - --env=SPNAV_SOCKET=/run/spnav.sock
   - --env=TMP_DIR=/tmp
   - --env=TMP=/tmp
