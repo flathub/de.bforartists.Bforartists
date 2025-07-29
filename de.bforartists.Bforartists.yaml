@@ -2,7 +2,7 @@
 # and runtime version
 id: de.bforartists.Bforartists
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: bforartists
 
@@ -18,10 +18,12 @@ finish-args:
   - --filesystem=home
   - --filesystem=/tmp
   - --filesystem=/run/spnav.sock:ro
+  - --env=AMD_DEBUG=useaco
   - --env=SPNAV_SOCKET=/run/spnav.sock
   - --env=TMP_DIR=/tmp
   - --env=TMP=/tmp
-  - --env=LD_LIBRARY_PATH=/app/lib
+  - --env=VK_ICD_FILENAMES=/app/lib/GL/vulkan/icd.d
+  - --env=LD_LIBRARY_PATH=/app/lib:/app/lib/GL/default/lib
 
 # We bundle non-free codecs with Bforartists,
 # which are build when the Flatpak is
@@ -38,6 +40,15 @@ add-extensions:
     directory: lib/ffmpeg
     version: '23.08'
     add-ld-path: .
+  org.freedesktop.Platform.GL:
+    directory: lib/GL
+    versions: 1.4;24.08
+    subdirectories: true
+    add-ld-path: lib:default/lib
+    merge-dirs: vulkan/icd.d;glvnd/egl_vendor.d;lib/dri
+    download-if: active-gl-driver
+    enable-if: active-gl-driver
+    autoprune-unless: active-gl-driver
 cleanup-commands:
   - mkdir -p /app/lib/ffmpeg
 modules:
@@ -159,6 +170,7 @@ modules:
       - cd /app/bforartists/*.*/datafiles && mv locale /app/share/locale && ln -sf
         /app/share/locale locale
       - install -Dm644 $FLATPAK_ID.metainfo.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
+      - mkdir -p /app/lib/GL
 
     # Bforartists tar archive, retrived from
     # GitHub releases and verified with a sha256 
