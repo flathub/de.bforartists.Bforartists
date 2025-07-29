@@ -170,6 +170,7 @@ modules:
       - cd /app/bforartists/*.*/datafiles && mv locale /app/share/locale && ln -sf
         /app/share/locale locale
       - install -Dm644 $FLATPAK_ID.metainfo.xml /app/share/metainfo/$FLATPAK_ID.metainfo.xml
+      - mkdir -p /app/lib/GL
 
     # Bforartists tar archive, retrived from
     # GitHub releases and verified with a sha256 
