@@ -22,7 +22,6 @@ finish-args:
   - --env=SPNAV_SOCKET=/run/spnav.sock
   - --env=TMP_DIR=/tmp
   - --env=TMP=/tmp
-  - --env=LD_LIBRARY_PATH=/app/lib
   - --env=VK_ICD_FILENAMES=/app/lib/GL/vulkan/icd.d
   - --env=LD_LIBRARY_PATH=/app/lib:/app/lib/GL/default/lib
 
