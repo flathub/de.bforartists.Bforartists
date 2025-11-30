@@ -38,7 +38,7 @@ add-extensions:
     autodelete: true
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    version: '23.08'
+    version: '24.08'
     add-ld-path: .
   org.freedesktop.Platform.GL:
     directory: lib/GL
@@ -180,8 +180,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v4.5.2/Bforartists-4.5.2-Linux.tar.xz
-        sha256: e9831e6b9608b4e90d7d76557a2e1c92efc5d8f7bd523d08ebc3ea1c7bc9cce1
+        url: https://github.com/Bforartists/Bforartists/releases/download/v5.0.0/Bforartists-5.0.0-Linux.tar.xz
+        sha256: b04d6f918e0f2b86ea18a852fb12518938252a1f4090cdd25c136cee2373e703
         strip-components: 0
 
         # This is to verify that the URL indeed 
