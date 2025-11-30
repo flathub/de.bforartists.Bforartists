@@ -38,7 +38,7 @@ add-extensions:
     autodelete: true
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
-    version: '23.08'
+    version: '24.08'
     add-ld-path: .
   org.freedesktop.Platform.GL:
     directory: lib/GL
