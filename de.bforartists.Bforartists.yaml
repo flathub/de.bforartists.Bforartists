@@ -2,7 +2,7 @@
 # and runtime version
 id: de.bforartists.Bforartists
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: bforartists
 
@@ -36,21 +36,15 @@ add-extensions:
     add-ld-path: lib
     bundle: true
     autodelete: true
-  org.freedesktop.Platform.ffmpeg-full:
-    directory: lib/ffmpeg
-    version: '24.08'
-    add-ld-path: .
   org.freedesktop.Platform.GL:
     directory: lib/GL
-    versions: 1.4;24.08
+    versions: 1.4;25.08
     subdirectories: true
     add-ld-path: lib:default/lib
     merge-dirs: vulkan/icd.d;glvnd/egl_vendor.d;lib/dri
     download-if: active-gl-driver
     enable-if: active-gl-driver
     autoprune-unless: active-gl-driver
-cleanup-commands:
-  - mkdir -p /app/lib/ffmpeg
 modules:
   - shared-modules/libdecor/libdecor-0.2.0.json
 
