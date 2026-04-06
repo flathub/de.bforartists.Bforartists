@@ -26,33 +26,30 @@
       This gives the full power of Blender but with an alternative UI and user experience. Keyboard-only features are now available through the UI, nodes are given icons and accessible add sidebar, icons are colored to make things easier to find. Everything is tailored for the visual top-level user experience.
     </p>
     <p>
-      Bforartists stands for “Be For Artists”. A reminder to develop for the user, not the programmer.
-    </p>
-    <h2>
-      Features
-    </h2>
-    <ul>
-      <li>Cleaned up User Interface. Lots of unnecessary double, triple or even more identical menu entries are combined, removed and/or exposed.</li>
-      <li>Extended User Interface. Many tools that were formerly hotkey only have a menu entry now.</li>
-      <li>Asset Shelves in object mode and node editors</li>
-      <li>Rearranged User Interface. Some things are better accessible now, some less frequent operators are no-longer in the way anymore.</li>
-      <li>Improved default settings.</li>
-      <li>Colored Iconography with silhuette, color coding, form and detail consistently placed everywhere.</li>
-      <li>A configurable toolbar with icon buttons.</li>
-      <li>A pinnable tool shelf with the header based tools, exposed at a top-level in panels.</li>
-      <li>Tabs in the toolshelf.</li>
-      <li>A node add toolshelf for quick point and click</li>
-      <li>Improved default workspace layouts.</li>
-      <li>Left aligned checkboxes and text where possible.</li>
-      <li>Indented titles for properties.</li>
-      <li>Better and more tooltips.</li>
-      <li>A new default keymap, reduced to a minimal and necessary hotkey layout with 3D navigation that can be exclusively done by mouse.</li>
-      <li>Better contrast on a readable standard theme.</li>
-      <li>Some extra add-ons to improve usability, like the reset 3D View add-on, Brush Panels or the Set Dimensions add-on with which you can scale in world coordinates in edit mode.</li>
-      <li>And lots of extra small details: like not so many delete confirm dialogs, quick editor toggles, scene management in the outliner, and more.</li>
-      <li>More color with Colored outliner rows and Node backgrounds</li>
-      <li>and all the latest from the Blender main trunk weekly!</li>
-    </ul>
+      Bforartists stands for “Be For Artists”. A reminder to develop for the user, not the programmer. Features include:
+	    <ul>
+	      <li>Cleaned up User Interface. Lots of unnecessary double, triple or even more identical menu entries are combined, removed and/or exposed.</li>
+	      <li>Extended User Interface. Many tools that were formerly hotkey only have a menu entry now.</li>
+	      <li>Asset Shelves in object mode and node editors</li>
+	      <li>Rearranged User Interface. Some things are better accessible now, some less frequent operators are no-longer in the way anymore.</li>
+	      <li>Improved default settings.</li>
+	      <li>Colored Iconography with silhuette, color coding, form and detail consistently placed everywhere.</li>
+	      <li>A configurable toolbar with icon buttons.</li>
+	      <li>A pinnable tool shelf with the header based tools, exposed at a top-level in panels.</li>
+	      <li>Tabs in the toolshelf.</li>
+	      <li>A node add toolshelf for quick point and click</li>
+	      <li>Improved default workspace layouts.</li>
+	      <li>Left aligned checkboxes and text where possible.</li>
+	      <li>Indented titles for properties.</li>
+	      <li>Better and more tooltips.</li>
+	      <li>A new default keymap, reduced to a minimal and necessary hotkey layout with 3D navigation that can be exclusively done by mouse.</li>
+	      <li>Better contrast on a readable standard theme.</li>
+	      <li>Some extra add-ons to improve usability, like the reset 3D View add-on, Brush Panels or the Set Dimensions add-on with which you can scale in world coordinates in edit mode.</li>
+	      <li>And lots of extra small details: like not so many delete confirm dialogs, quick editor toggles, scene management in the outliner, and more.</li>
+	      <li>More color with Colored outliner rows and Node backgrounds</li>
+	      <li>and all the latest from the Blender main trunk weekly!</li>
+	    </ul>
+	</p>
 
     <ul>
       <li>The target audience for Bforartists are hobbyists and indie artists coming in from other software. This gives accessibility and familiarity to a niche that may not be content with vanilla Blender out-of-the-box. Blender tries to target Blender professionals and experienced users. That’s a completely different audience and development target.</li>
