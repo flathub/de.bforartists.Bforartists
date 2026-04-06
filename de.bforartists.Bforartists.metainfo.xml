@@ -82,8 +82,13 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
-    <release version="5.1.0" date="2026-03-26">
-      <description></description>
+    <release version="5.1.0" date="2026-03-25">
+      <description>
+      <ul>
+          <li>This major point release is focused on new procedural UV Geometry Nodes assets that come out of the box, and much polish to the overall interface, keeping everything new in sync with the Bforartsits interface philosophy.</li>
+          <li>This is part of all the latest from Blender 5.1.0 and 5.2.0 to the date - with 131 new features, fixes and polish with much stability from Blender!</li>
+      </ul>
+      </description>
     </release>
     <release version="5.0.1" date="2025-12-31">
       <description/>
