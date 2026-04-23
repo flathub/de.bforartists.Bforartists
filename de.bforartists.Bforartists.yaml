@@ -180,8 +180,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v5.1.0/Bforartists-5.1.0-Linux.tar.xz
-        sha256: 60c9789124036680a2ad452835ed770232fda49a923afb4421776db89af77577
+        url: https://github.com/Bforartists/Bforartists/releases/download/v5.1.1/Bforartists-5.1.1-Linux.tar.xz
+        sha256: 0cc980b2043407028e5b665be7ebc36a8c22e9ea73ec10adf4ee31538a787d6a
         strip-components: 0
 
         # This is to verify that the URL indeed 
