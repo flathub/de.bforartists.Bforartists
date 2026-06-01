@@ -48,6 +48,8 @@
 	  <li>Some extra add-ons to improve usability, like the reset 3D View add-on, Brush Panels or the Set Dimensions add-on with which you can scale in world coordinates in edit mode.</li>
 	  <li>And lots of extra small details: like not so many delete confirm dialogs, quick editor toggles, scene management in the outliner, and more.</li>
 	  <li>More color with Colored outliner rows and Node backgrounds</li>
+    <li>Custmizable Node editor Minimap</li>
+    <li>Custmizable Quick Favorites Menu</li>
 	  <li>and all the latest from the Blender main trunk weekly!</li>
 	</ul>
 
@@ -69,22 +71,52 @@
       <caption>Bforartists splash by Krysidian and the Umbraven_cu team</caption>
     </screenshot>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_2.png</image>
-      <caption>Bforartists window with the compositing workspace</caption>
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window.png</image>
+      <caption>Bforartists window with the default workspace showing the asset shelf</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_1.png</image>
+      <caption>Bforartists window with a compositor asset applied for pixel art</caption>
     </screenshot>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_2.png</image>
-      <caption>Bforartists window with the 2D Animation workspace</caption>
+      <caption>Bforartists window with a realtime stylized render</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_3.png</image>
+      <caption>Bforartists window with the shader view</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_4.png</image>
+      <caption>Bforartists window with the Grease Pencil drawings</caption>
+    </screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window_6.png</image>
+      <caption>Bforartists window with procedural primitives used as blockout</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="5.1.2" date="2026-06-01">
+      <description>
+      <ul>
+          <li>The Node Editor Minimap and Quick Favorites Version</li>
+          <li>This is part of all the latest from Blender 5.1.2 and 5.2.0 to the date - with 131 new features, fixes and polish with much stability from Blender!</li>
+      </ul>
+      </description>
+    </release>
     <release version="5.1.1" date="2026-04-23">
-      <description></description>
+      <description>
+      <ul>
+          <li>The UV Nodes Hotfix Version 🏁</li>
+          <li>Based on latest from Blender 5.1.1 and 5.2.0 to the date - with 131 new features, fixes and polish with much stability from Blender!</li>
+      </ul>
+      </description>
     </release>
     <release version="5.1.0" date="2026-03-25">
       <description>
       <ul>
+          <li>The UV Nodes Version 🏁</li>
           <li>This major point release is focused on new procedural UV Geometry Nodes assets that come out of the box, and much polish to the overall interface, keeping everything new in sync with the Bforartsits interface philosophy.</li>
           <li>This is part of all the latest from Blender 5.1.0 and 5.2.0 to the date - with 131 new features, fixes and polish with much stability from Blender!</li>
       </ul>
