@@ -98,6 +98,9 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="5.1.2" date="2026-06-01">
+      <description></description>
+    </release>
+    <release version="5.1.2" date="2026-06-01">
       <description>
       <ul>
           <li>The Node Editor Minimap and Quick Favorites Version</li>
