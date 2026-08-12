@@ -98,7 +98,11 @@
   <content_rating type="oars-1.1"/>
   <releases>
     <release version="5.2.0" date="2026-07-29">
-      <description></description>
+        <description>
+            <ul>
+                <li>This include the latest of Blender 5.2 and 5.3 to date - with 56 new features from the Bforartists team.</li>
+            </ul>
+        </description>
     </release>
     <release version="5.1.2" date="2026-06-01">
       <description>
