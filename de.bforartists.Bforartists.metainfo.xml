@@ -63,14 +63,6 @@
   <launchable type="desktop-id">de.bforartists.Bforartists.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/cfe22a87c58322a526d642d2599c1a9cde2fbff3/screenshots/app-window.png</image>
-      <caption>Bforartists window</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/splash.jpg</image>
-      <caption>Bforartists splash by Krysidian and the Umbraven_cu team</caption>
-    </screenshot>
-    <screenshot type="default">
       <image>https://raw.githubusercontent.com/flathub/de.bforartists.Bforartists/master/screenshots/app-window.png</image>
       <caption>Bforartists window with the default workspace showing the asset shelf</caption>
     </screenshot>
@@ -97,6 +89,13 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="5.2.0" date="2026-07-29">
+        <description>
+            <ul>
+                <li>This include the latest of Blender 5.2 and 5.3 to date - with 56 new features from the Bforartists team.</li>
+            </ul>
+        </description>
+    </release>
     <release version="5.1.2" date="2026-06-01">
       <description>
       <ul>
