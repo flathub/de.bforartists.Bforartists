@@ -41,6 +41,10 @@ modules:
   # Libcrypt for BlenderKit support
   # https://github.com/flathub/org.blender.Blender/issues/166
   - name: libxcrypt
+    build-options:
+      # GCC 16 (freedesktop 26.08 SDK) errors on discarded-qualifiers in
+      # libxcrypt's -Werror build; downgrade just that warning.
+      cflags: -Wno-error=discarded-qualifiers
     config-opts:
       - --prefix=/app
       - --enable-shared
