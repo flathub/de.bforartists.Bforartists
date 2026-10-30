@@ -47,7 +47,8 @@ modules:
       - --enable-obsolute-api=glibc
     sources:
       - type: archive
-        url: https://github.com/besser82/libxcrypt/releases/download/v4.5.2/libxcrypt-4.5.2.tar.xz
+        url: 
+          https://github.com/besser82/libxcrypt/releases/download/v4.5.2/libxcrypt-4.5.2.tar.xz
         sha256: 71513a31c01a428bccd5367a32fd95f115d6dac50fb5b60c779d5c7942aec071
 
   # Bforartists itself
@@ -79,8 +80,9 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v5.2.0/Bforartists-5.2.0-Linux.tar.xz
-        sha256: cbd3ddfd1c2a9e6e9659461ba35949d22e06eabfa8b386bdd1c8b501f502aaab
+        url: 
+          https://github.com/Bforartists/Bforartists/releases/download/v5.2.3/Bforartists-5.2.3-Linux.tar.xz
+        sha256: 8d90a97e9636360ae1b19ab85b612666404b514d53dbb508b899b95497e87fe6
         strip-components: 0
 
         # This is to verify that the URL indeed 
@@ -96,7 +98,8 @@ modules:
           stable-only: true
           versions:
             '>=': 3.6.0
-          url-template: https://github.com/Bforartists/Bforartists/releases/download/v$version/Bforartists-$version-Linux.tar.xz
+          url-template: 
+            https://github.com/Bforartists/Bforartists/releases/download/v$version/Bforartists-$version-Linux.tar.xz
 
       # Metadata and script that executes Bforartists
       - type: file
