@@ -89,6 +89,15 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="5.2.3" date="2026-10-27">
+      <description>
+      <ul>
+          <li>The Rotation and Dopesheet Gizmo Stability Release</li>
+          <li>This is a cumulative point release focused on stability and polish, with a couple of new gizmo core features: roll the view by dragging a gizmo, and interactive scene strips in the Dopesheet.</li>
+          <li>Built on Blender 5.3.0 Alpha with 76 new features, fixes and polish since 5.2.0.</li>
+      </ul>
+      </description>
+    </release>
     <release version="5.2.0" date="2026-07-29">
         <description>
             <ul>

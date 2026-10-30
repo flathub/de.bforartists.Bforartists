@@ -2,7 +2,7 @@
 # and runtime version
 id: de.bforartists.Bforartists
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: '26.08'
 sdk: org.freedesktop.Sdk
 command: bforartists
 
@@ -28,7 +28,7 @@ finish-args:
 add-extensions:
   org.freedesktop.Platform.GL:
     directory: lib/GL
-    versions: 1.4;25.08
+    versions: 1.4;26.08
     subdirectories: true
     add-ld-path: lib:default/lib
     merge-dirs: vulkan/icd.d;glvnd/egl_vendor.d;lib/dri
@@ -41,10 +41,14 @@ modules:
   # Libcrypt for BlenderKit support
   # https://github.com/flathub/org.blender.Blender/issues/166
   - name: libxcrypt
+    build-options:
+      # GCC 16 (freedesktop 26.08 SDK) errors on discarded-qualifiers in
+      # libxcrypt's -Werror build; downgrade just that warning.
+      cflags: -Wno-error=discarded-qualifiers
     config-opts:
       - --prefix=/app
       - --enable-shared
-      - --enable-obsolute-api=glibc
+      - --enable-obsolete-api=glibc
     sources:
       - type: archive
         url: https://github.com/besser82/libxcrypt/releases/download/v4.5.2/libxcrypt-4.5.2.tar.xz
@@ -79,8 +83,8 @@ modules:
     # sha256sum <bforartists tar archive>
     sources:
       - type: archive
-        url: https://github.com/Bforartists/Bforartists/releases/download/v5.2.0/Bforartists-5.2.0-Linux.tar.xz
-        sha256: cbd3ddfd1c2a9e6e9659461ba35949d22e06eabfa8b386bdd1c8b501f502aaab
+        url: https://github.com/Bforartists/Bforartists/releases/download/v5.2.3/Bforartists-5.2.3-Linux.tar.xz
+        sha256: 8d90a97e9636360ae1b19ab85b612666404b514d53dbb508b899b95497e87fe6
         strip-components: 0
 
         # This is to verify that the URL indeed 
